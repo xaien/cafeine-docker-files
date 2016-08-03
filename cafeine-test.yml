@@ -1,6 +1,6 @@
 version: "2"
 services:
-  database:
+  cafeine_test_database:
     container_name: cafeine-test
     restart: always
     image: postgres
