@@ -1,0 +1,12 @@
+version: "2"
+services:
+  database:
+    container_name: cafeine-dev
+    restart: always
+    image: postgres
+    ports:
+    - "5432:5432"
+    environment:
+    - POSTGRES_PASSWORD=cafeine
+    - POSTGRES_USER=cafeine
+    - POSTGRES_DB=cafeine_dev
